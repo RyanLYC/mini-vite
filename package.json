@@ -1,0 +1,14 @@
+{
+  "name": "mini-vite",
+  "version": "1.0.0",
+  "author": "lyc",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "node ./index.js"
+  },
+  "dependencies": {
+    "koa": "^2.14.1",
+    "vue": "^3.2.47"
+  }
+}
