@@ -86,7 +86,7 @@ app.use(async (ctx) => {
     } else if (query.type === "template") {
       // 模板内容
       const template = descriptor.template;
-      // 要在server端吧compiler做了
+      // 在server端compiler做了
       const render = compilerDom.compile(template.content, {
         mode: "module",
       }).code;
